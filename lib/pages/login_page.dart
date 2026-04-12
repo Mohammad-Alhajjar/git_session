@@ -97,7 +97,11 @@ class _LoginPageState extends State<LoginPage> {
                 child: Text("Login Login"),
               ),
               SizedBox(height: 10),
-              FilledButton(onPressed: () {}, child: Text("Login")),
+              FilledButton(
+                style: FilledButton.styleFrom(backgroundColor: Colors.red),
+                onPressed: () {},
+                child: Text("Login"),
+              ),
               SizedBox(height: 10),
               OutlinedButton(onPressed: () {}, child: Text("Login")),
               SizedBox(height: 10),
